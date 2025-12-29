@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agung Rama - Portfolio</title>
+    
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll To Top -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="logo">
+                    <span>Agung</span>Rama
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">Tentang</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Proyek</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h3 class="hero-subtitle">Selamat Datang, Saya</h3>
+                    <h1 class="hero-title">Agung Rama</h1>
+                    <p class="hero-description">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-briefcase"></i>
+                            Lihat Proyek
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Hubungi Saya
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.instagram.com/_agungramaa/" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/anax.ajoez?locale=id_ID" target="_blank" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/i-gusti-ngurah-agung-rama-ari-wijaya-91409b331/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/agungramaa" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="assets/profile.jpeg" alt="Agung Rama">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang Saya</h2>
+                <p class="section-subtitle">Kenalan lebih dekat dengan saya</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/about.jpeg" alt="About Me">
+                    <div class="about-image-bg"></div>
+                </div>
+                <div class="about-info">
+                    <h3>Digital Creator & Developer</h3>
+                    <p>
+                        Hai, Nama saya <strong>Agung Rama</strong>, Saya berasal dari Bali, kota Gianyar.
+                        Saya mempunyai ketertarikan pada bidang Teknologi. Saya mulai menyukai teknologi dan desain 
+                        dimulai ketika melihat tampilan visual yang bisa digunakan dan dinikmati orang banyak.
+                    </p>
+                    <p>
+                        Selama saya berkuliah, saya telah mengerjakan berbagai proyek, 
+            saya percaya bahwa kombinasi antara kode yang bersih dan estetika desain yang matang
+                        mampu memberikan pengalaman terbaik bagi pengguna.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <span>Nama:</span>
+                                <p>Agung Rama</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span>Lokasi:</span>
+                                <p>Gianyar, Bali</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span>Pendidikan:</span>
+                                <p>ITB STIKOM Bali</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <span>Status:</span>
+                                <p>Mahasiswa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="assets/cv.pdf" class="btn btn-primary">
+                        <i class="cv-btn"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pendidikan</h2>
+                <p class="section-subtitle">Berikut pendidikan saya</p>
+            </div>
+            <div class="education-content">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-info">
+                        <span class="education-year">2023 - Sekarang</span>
+                        <h3>Institut Teknologi dan Bisnis STIKOM Bali</h3>
+                        <p>Sistem Komputer</p>
+                        <div class="education-badge">Aktif</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Keahlian Saya</h2>
+                <p class="section-subtitle">Hard Skills & Soft Skills yang saya kuasai</p>
+            </div>
+            
+            <!-- Hard Skills -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-code"></i>
+                    Hard Skills
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h4>HTML</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h4>CSS</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h4>JavaScript</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <h4>Figma</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-pen-nib"></i>
+                        </div>
+                        <h4>UI/UX Design</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h4>Microcontroller</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-users"></i>
+                    Soft Skills
+                </h3>
+                <div class="soft-skills-grid">
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <h4>Teamwork</h4>
+                        <p>Mampu bekerja sama dalam tim dengan baik</p>
+                    </div>
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h4>Communication</h4>
+                        <p>Komunikasi yang efektif dan jelas</p>
+                    </div>
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Problem Solving</h4>
+                        <p>Mencari solusi kreatif untuk setiap masalah</p>
+                    </div>
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Time Management</h4>
+                        <p>Mengelola waktu dengan efisien</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proyek Saya</h2>
+                <p class="section-subtitle">Beberapa proyek yang sudah saya kerjakan</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+<div class="project-card">
+    <div class="project-image">
+        <img src="assets/project1.jpeg" alt="Website Coffee Shop">
+        <div class="project-overlay">
+            <a href="https://youtu.be/fGMCjzlBR3A" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </div>
+    <div class="project-info">
+        <div class="project-category">Web Development</div>
+        <h3>Website Coffee Shop</h3>
+        <p>Sebuah platform digital yang menampilkan menu kopi, informasi outlet, dan layanan pemesanan secara online.</p>
+        <div class="project-tech">
+            <span><i class="fab fa-html5"></i> HTML</span>
+            <span><i class="fab fa-css3-alt"></i> CSS</span>
+            <span><i class="fab fa-js"></i> JavaScript</span>
+        </div>
+        <a href="https://youtu.be/fGMCjzlBR3A" target="_blank" class="btn btn-small btn-primary">
+            Lihat Detail
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</div>
+
+               <!-- Project 2 -->
+<div class="project-card">
+    <div class="project-image">
+        <img src="assets/project2.jpeg" alt="Sistem Informasi Siswa Baru">
+        <div class="project-overlay">
+            <a href="assets/perancangan.pdf" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </div>
+    <div class="project-info">
+        <div class="project-category">Perancangan Sistem</div>
+        <h3>Sistem Informasi Siswa Baru</h3>
+        <p>Perancangan sistem untuk memudahkan proses pendaftaran calon siswa secara lebih efisien, akurat, dan terorganisir.</p>
+        <div class="project-tech">
+            <span><i class="fas fa-pencil-ruler"></i> Draw.io</span>
+        </div>
+        <a href="assets/perancangan.pdf" target="_blank" class="btn btn-small btn-primary">
+            Lihat Detail
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</div>
+               <!-- Project 3 -->
+<div class="project-card">
+    <div class="project-image">
+        <img src="assets/project3.jpeg" alt="UI/UX Design">
+        <div class="project-overlay">
+            <a href="https://www.figma.com/proto/qFqA2OyMh9pvPKC4eFfQqI/UI-Laundrify?node-id=39-106&p=f&t=9jP11lCHJfsXNpFO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=39%3A106" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </div>
+    <div class="project-info">
+        <div class="project-category">UI/UX Design</div>
+        <h3>Design Laundrify</h3>
+        <p>Rancangan antarmuka dan pengalaman pengguna untuk aplikasi pemesanan laundry secara online.</p>
+        <div class="project-tech">
+            <span><i class="fab fa-figma"></i> Figma</span>
+            <span><i class="fas fa-palette"></i> UI/UX</span>
+        </div>
+        <a href="https://www.figma.com/proto/qFqA2OyMh9pvPKC4eFfQqI/UI-Laundrify?node-id=39-106&p=f&t=9jP11lCHJfsXNpFO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=39%3A106" target="_blank" class="btn btn-small btn-primary">
+            Lihat Detail
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</div>
+                 <!-- Project 4 -->
+    <div class="project-card">
+    <div class="project-image">
+        <img src="assets/project4.jpeg" alt="Penggaris Digital">
+        <div class="project-overlay">
+            <a href="https://www.youtube.com/watch?v=vckqtKbgyBs" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </div>
+    <div class="project-info">
+        <div class="project-category">Microcontroller</div>
+        <h3>Penggaris Digital</h3>
+        <p>Alat ini mampu menampilkan hasil pengukuran secara digital dalam satuan seperti centimeter (cm) atau meter (m).</p>
+        <div class="project-tech">
+            <span><i class="fas fa-microchip"></i> Arduino IDE</span>
+        </div>
+        <a href="https://www.youtube.com/watch?v=vckqtKbgyBs" target="_blank" class="btn btn-small btn-primary">
+            Lihat Detail
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hubungi Saya</h2>
+                <p class="section-subtitle">Mari bekerja sama untuk proyek Anda</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Mari Terhubung</h3>
+                    <p>Punya proyek menarik atau ingin berkolaborasi? Jangan ragu untuk menghubungi saya!</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:gungrama556@gmail.com">gungrama556@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Telepon</h4>
+                                <a href="tel:+6281338074050">+62 813 3807 4050</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Lokasi</h4>
+                                <p>Gianyar, Bali, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://www.instagram.com/_agungramaa/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/anax.ajoez?locale=id_ID" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/i-gusti-ngurah-agung-rama-ari-wijaya-91409b331/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/agungramaa" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 <strong>Agung Rama</strong>. All Rights Reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#projects">Proyek</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
